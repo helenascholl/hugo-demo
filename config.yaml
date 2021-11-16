@@ -7,3 +7,7 @@ menu:
   main:
   - name: team
     URL: /team/
+    weight: 100
+  - name: architektur
+    URL: /architecture/
+    weight: 110
