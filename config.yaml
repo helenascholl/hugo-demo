@@ -11,3 +11,5 @@ menu:
   - name: architektur
     URL: /architecture/
     weight: 110
+  - name: neuigkeiten
+    URL: /post/
