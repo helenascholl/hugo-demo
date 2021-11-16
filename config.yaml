@@ -5,6 +5,9 @@ theme: leonie
 
 menu:
   main:
+  - name: leonie
+    URL: /
+    weight: 90
   - name: team
     URL: /team/
     weight: 100
@@ -13,3 +16,4 @@ menu:
     weight: 110
   - name: neuigkeiten
     URL: /post/
+    weight: 120
