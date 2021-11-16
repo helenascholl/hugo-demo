@@ -2,3 +2,8 @@ baseURL: https://schollsebastian.com/hugo-demo/
 languageCode: de-at
 title: Leonie
 theme: ananke
+
+menu:
+  main:
+  - name: team
+    URL: /team/
