@@ -1,7 +1,7 @@
 ---
 title: "Home"
 date: 2021-11-16T08:20:58+01:00
-featured_image: ./images/team.jpg
+bg_image: ./images/team.jpg
 description: Die künstlich "intelligente" Sprachassistentin der HTL Leonding!
 ---
 
