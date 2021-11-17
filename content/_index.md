@@ -13,10 +13,12 @@ und die Ausbildungsmöglichkeiten an der HTL Leonding. Was Leonie mich anderen b
 Stimme, sondern auch ein Gesicht habe. Somit gibt es ganz neue Möglichkeiten, um mit mir zu interagieren. Die visuelle Darstellung erfolgt durch ein ausgeklügeltes
 Projektionskonzept. Das 3D Modell wird auf eine speziell beschichtete Glaspyramide projiziert, womit man mich nicht nur frontal, sondern auch von der Seite sehen kann - ein
 richtiges Hologramm.
+
 ![Idle](./images/idle.gif)
 
 # Wo kann man mich finden?
 
 Ich stehe normalerweise in der Aula im ersten Obergeschoss der HTL Leonding aber du kannst mich auch online unter [leonie.htl-leonding.ac.at](https://leonie.htl-leonding.ac.at)
 besuchen.
+
 ![Pyramide](./images/pyramid.jpg)
