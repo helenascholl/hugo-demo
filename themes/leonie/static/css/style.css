@@ -13,7 +13,7 @@ header nav {
 }
 
 header nav a {
-  color: #e9e9e9;
+  color: white;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.5em;
@@ -21,31 +21,65 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #3d3d3d;
+  color: #dddddd;
 }
 
 .heading {
-  height: 50vh;
-  background-size: cover;
+  padding: 0 9vw;
 }
 
-.heading::before {
+.bg-heading {
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+  color: white;
+}
+
+.bg-heading::before {
+  z-index: 10;
   content: '';
   position: absolute;
   left: 0;
-  top: 7vh;
+  top: 10vh;
   width: 100%;
   height: 50vh;
+  background-color: #3d3d3d;
+  opacity: 50%;
 }
 
-.home {
-  padding: 9vw;
+.bg-heading h1 {
+  z-index: 20;
+  margin: 0;
 }
 
-.home p, .home p img {
+.content {
+  padding: 2vw 9vw;
+}
+
+.content p, .content p img {
   width: 40vw;
   display: inline-block;
   vertical-align: top;
+}
+
+.content p, .content a {
+  color: black;
+}
+
+.content a:hover {
+  color: #252525;
+}
+
+.fullsize-image p img {
+  width: 80vw;
+}
+
+.small-image p img {
+  width: 20vw;
+  padding-left: 10vw;
 }
 
 footer nav {
@@ -60,4 +94,17 @@ footer nav a {
   margin: 0 1vw;
   text-transform: capitalize;
   color: #cecece;
+}
+
+footer nav a:hover {
+  color: #e0e0e0;
+}
+
+iframe {
+  width: 40vw;
+  height: 22.5vw;
+}
+
+h3 {
+  margin: 0;
 }

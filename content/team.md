@@ -1,6 +1,8 @@
 ---
 title: Team
 date: 2021-11-16T09:22:42+01:00
+iframe_src: https://www.youtube.com/embed/Bt2gCM_2CPA
+small_image: true
 ---
 
 # Jonas Dorfinger

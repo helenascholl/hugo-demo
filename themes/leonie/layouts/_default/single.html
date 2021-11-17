@@ -1,4 +1,12 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
+<div class="heading">
+  <h1>{{ .Title }}</h1>
+</div>
+<div class="content{{ if .Params.fullsize_image }} fullsize-image{{ else if .Params.small_image }} small-image{{ end }}">
+  {{ if .Params.iframe_src }}
+  <iframe width="1280" height="720" src="{{ .Params.iframe_src }}" title="YouTube video player" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  {{ end }}
+  {{ .Content }}
+</div>
 {{ end }}
