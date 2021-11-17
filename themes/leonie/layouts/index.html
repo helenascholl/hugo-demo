@@ -2,5 +2,7 @@
 <div class="heading"{{ if .Params.bg_image }}style="background-image: url('{{ .Params.bg_image }}');"{{ end }}>
   <h1>{{ .Site.Title }}</h1>
 </div>
-{{ .Content }}
+<div class="home">
+  {{ .Content }}
+</div>
 {{ end }}
